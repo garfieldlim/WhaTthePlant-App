@@ -192,7 +192,12 @@ class message extends StatelessWidget {
                         style: TextStyle(color: Colors.white),
                       ),
                     ],
-                  )
+                  ),
+                  SizedBox(width: 100),
+                  Icon(
+                    Icons.message_rounded,
+                    color: Colors.white,
+                  ),
                 ],
               )),
         ),
